@@ -1,0 +1,52 @@
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Cython
+*.c
+*.so
+
+# --- Virtual environments ---
+venv/
+venv*/
+.venv/
+.venv*/
+
+# --- Data Files ---
+# Ignore all CSVs EXCEPT the anonymized/working ones you want to commit
+*.csv
+!transactions_anonymized.csv
+!transactions_faked.csv
+!transactions.csv
+
+# --- Config / Secrets ---
+# ALLOW .env to be committed
+# (so do NOT ignore .env)
+# If there are other env-like files, ignore those:
+.env.*
+.env_rc
+.env.bak
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- OS / temp ---
+.DS_Store
+Thumbs.db
+
+# --- Build ---
+dist/
+build/
+*.egg-info/
+
+# --- Logs ---
+*.log
+logs/
