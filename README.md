@@ -14,5 +14,5 @@ pip install -r requirements.txt
 
 Run the app:
 ```bash
-streamlit run Home.py
+streamlit run main.py
 ```

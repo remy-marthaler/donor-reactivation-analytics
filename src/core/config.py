@@ -1,5 +1,8 @@
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Toggle between real API and mock API (default: mock for dev)
 USE_MOCK_API = os.getenv("USE_MOCK_API", "true").lower() in {"1","true","yes","y"}

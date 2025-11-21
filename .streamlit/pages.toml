@@ -1,0 +1,19 @@
+[[pages]]
+path = "pages/dashboard_page.py"
+name = "Dashboard"
+icon = "📊"
+
+[[pages]]
+path = "pages/segmentation_page.py"
+name = "Segmentation"
+icon = "🧩"
+
+[[pages]]
+path = "pages/ltv_page.py"
+name = "Lifetime Value"
+icon = "💰"
+
+[[pages]]
+path = "pages/churn_page.py"
+name = "Churn"
+icon = "📉"
